@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-image: url('pexels-jacob-colvin-1761279.jpg');
+    background-size: cover;
+}
+
+input[type="text"],
+input[type="email"],
+input [type="password"] input [type="password"] input [type="submit"] {
+    display: block;
+}
+
+.main_box {
+    display: flex;
+    height: 100vh;
+}
+
+.child {
+    height: 490px;
+    width: 370px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 7px;
+    backdrop-filter: blur(10px);
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+}
+
+#username,
+#email,
+#password,
+#con_password {
+    width: 300px;
+    height: 30px;
+    margin: 14px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid black;
+    color: white;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: white
+}
+
+#register {
+    height: 35px;
+    width: 300px;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    margin: 14px;
+    cursor: pointer;
+    background: rgb(61, 77, 77);
+    color: white;
+    font-size: 16px;
+}
+
+a {
+    color: black;
+    font-weight: 600;
+    transition: all .5s;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#login {
+    margin-top: 7px;
+}
+
+#agree {
+    margin: 14px0 10px 0;
+}

@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url('pexels-jacob-colvin-1761279.jpg');
+    background-size: cover;
+}
+
+input[type="text"],
+input [type="password"] {
+    display: block;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+.box {
+    height: 380px;
+    width: 350px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    backdrop-filter: blur(20px);
+    position: relative;
+}
+
+#username,
+#password {
+    height: 35px;
+    width: 300px;
+    margin: 14px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    color: white;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+#submit {
+    height: 35px;
+    width: 300px;
+    margin: 14px;
+    background: rgb(81, 92, 92);
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 16px;
+}
+
+.parag {
+    display: flex;
+    margin: 14px 0 10px 0;
+}
+
+.forgot {
+    margin-left: 60px;
+}
+
+.register {
+    margin: 8px;
+}
+
+a {
+    color: black;
+    font-family: 600;
+    transition: all .5s;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+input::placeholder {
+    color: white;
+}
